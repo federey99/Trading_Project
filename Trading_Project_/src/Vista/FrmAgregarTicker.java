@@ -28,6 +28,12 @@ public FrmAgregarTicker(Window owner, String titulo) {
         @Override
         public void actionPerformed(ActionEvent e) {dispose();}
     });
+    aceptarButton.addActionListener(new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+
+        }
+    });
 }
 }
 
